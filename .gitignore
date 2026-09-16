@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Build output
+build/
+dist/
+*.spec
+*.zip
+
+# Kometa Helper runtime data
+runtime/
+Kometa-Helper/
+collections.json
+library-locations.json
+ui-state.json
+*.log
+*.cache
+
+# Generated artwork and private media data
+posters/
+progress-posters/
+logos/
+logo-results/
+poster-results/
+
+# Windows / editor noise
+Thumbs.db
+Desktop.ini
+*.lnk
+.vscode/
+.idea/
+
+# Local secrets or scratch files
+.env
+*.token
+*.secret
